@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.4 on win32)" generated="20230705 00:59:35.682" rpa="false" schemaversion="3">
+<suite id="s1" name="Tagging" source="C:\Development\robot-scripts\Autoamtion Robot\TestCases\Tagging.robot">
+<test id="s1-t1" name="TC5 No Tag Test" line="26">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\n This is no tag test</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230705 00:59:35.705" endtime="20230705 00:59:35.705"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>No tag test is over</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230705 00:59:35.706" endtime="20230705 00:59:35.706"/>
+</kw>
+<status status="PASS" starttime="20230705 00:59:35.704" endtime="20230705 00:59:35.706"/>
+</test>
+<status status="PASS" starttime="20230705 00:59:35.684" endtime="20230705 00:59:35.708"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tagging">Tagging</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
