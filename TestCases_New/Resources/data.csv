@@ -1,0 +1,4 @@
+*** Test Cases ***;${uname};${pwd}
+Invalid username;shyam;admin123
+Invalid Pass;Admin;shyam123456
+Correct Pass;Admin;admin123

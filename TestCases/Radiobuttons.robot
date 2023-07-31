@@ -29,11 +29,9 @@ Testing Checkbox
     unselect checkbox    Automation Tester
 
 
-
-
-
 *** Keywords ***
 Starting the validation
+    create webdriver
     open browser    ${BASE_URL}     ${BROWSER}
     maximize browser window
     set selenium speed    2seconds
